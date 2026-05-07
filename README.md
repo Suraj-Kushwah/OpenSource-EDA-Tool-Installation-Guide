@@ -13,10 +13,10 @@ OpenSource-EDA-Tool-Installation-Guide/
 │   └── SETUP.md
 │
 ├── EDA_Tool_Installation/
-│   └── eda_tool_installation.sh
+│   └── tools.sh
 │
 ├── SKY130_PDK_Installation/
-│   └── sky130_pdk_installation.sh
+│   └── SKYPDK.sh
 │
 └── README.md
 ```
@@ -40,8 +40,8 @@ WSL_Setup/SETUP.md
 Copy the installation script into your Ubuntu/WSL system and run:
 
 ```bash
-chmod +x eda_tool_installation.sh
-./eda_tool_installation.sh
+chmod +x tools.sh
+./tools.sh
 ```
 
 ---
@@ -51,8 +51,8 @@ chmod +x eda_tool_installation.sh
 Copy the installation script into your Ubuntu/WSL system and run:
 
 ```bash
-chmod +x sky130_pdk_installation.sh
-./sky130_pdk_installation.sh
+chmod +x SKYPDK.sh
+./SKYPDK.sh
 ```
 
 ---
